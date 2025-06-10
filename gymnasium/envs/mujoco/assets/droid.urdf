@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><robot xmlns="http://www.ros.org" name="droid">
+    <link name="HeadNeckAssembly_1__Part_1_7">
+        <inertial>
+            <origin rpy="0.14491872905424558 0.009281080644398828 -1.9456978500770583" xyz="0.03306102602081387 0.0 -0.025988992866618377"/>
+            <mass value="0.041127334490139285"/>
+            <inertia ixx="1.3693996052096294E-5" ixy="3.4730111124017578E-9" ixz="2.4194819633799673E-8" iyy="3.939607905119911E-5" iyz="-1.0759532176086937E-6" izz="3.3248415100496406E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="1.7347234759768213E-15 1.1102230246251652E-16 3.141592653589793" xyz="0.033122698052227145 0.0 -0.048999999999999655"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_7.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.7347234759768213E-15 1.1102230246251652E-16 3.141592653589793" xyz="0.05559999999999951 2.7755575615628914E-17 -0.025999999999999857"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_4.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-3.1415926535897913 1.1102230246251652E-16 3.141592653589793" xyz="0.032999999999999724 0.0 -0.003000000000000058"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_5.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="0.0 -0.0 3.0357660829594124E-17" xyz="0.010399999999999993 0.0 -0.02600000000000008"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_6.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Part_1_6">
+        <inertial>
+            <origin rpy="-2.841479538896191 -0.08215675154349743 3.1089611559416785" xyz="-0.143667790477173 -0.10500851911398518 0.2583286463831161"/>
+            <mass value="0.018230564161461273"/>
+            <inertia ixx="5.208410756315261E-6" ixy="-4.2398317337648713E-10" ixz="2.2385095294789756E-9" iyy="9.95025512505355E-6" iyz="-4.2022089153689035E-8" izz="8.28375054165331E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="-6.938893903907228E-17 5.551115123125773E-17 1.5707963267948992" xyz="-0.14244977733990943 -0.1206126977539852 0.2585692761793733"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_7.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.5707963267948966 1.5707963267948966 0.0" xyz="-0.14337477733990947 -0.10061269775398521 0.25831927617937334"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_6.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.611764705882353 0.611764705882353 0.611764705882353 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Part_1_4">
+        <inertial>
+            <origin rpy="0.2973168944103398 -0.04429570838046923 1.534259899309768" xyz="-0.029003465022146707 -0.0771744622765647 0.13679553334324396"/>
+            <mass value="0.020455398639671444"/>
+            <inertia ixx="2.915086716720565E-6" ixy="1.0" ixz="1.0" iyy="1.5873003355695037E-5" iyz="1.1856597788008021E-8" izz="1.6583316052442535E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="0.0 5.551115123125783E-17 1.734723475976807E-18" xyz="-0.029003465022146707 -0.07710678510772048 0.1276651275301544"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_4.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Composite_part_1_1">
+        <inertial>
+            <origin rpy="-1.401406675437184 -1.208244960801741 0.13528643878441013" xyz="0.0 -0.016999999999999904 0.026500000000000013"/>
+            <mass value="0.0171670294792114"/>
+            <inertia ixx="6.44420964908871E-6" ixy="1.0" ixz="1.0" iyy="6.4442096490887096E-6" iyz="1.0" izz="9.382418566263971E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="1.5707963267948968 1.5707963267948966 0.0" xyz="-1.1102230246251565E-16 0.020000000000000073 -6.938893903907228E-18"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Composite_part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.6470588235294118 0.6470588235294118 0.6470588235294118 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="HeadNeckAssembly_1__Part_1_1">
+        <inertial>
+            <origin rpy="-1.4247112083755553 -0.12501486630665473 -1.5013842875892451" xyz="0.07509227142560188 -0.00810119274595214 0.04095765905544663"/>
+            <mass value="0.21210055385365936"/>
+            <inertia ixx="6.563030498747351E-4" ixy="-2.432947509455314E-6" ixz="-1.7765536808171356E-8" iyy="5.078596775284351E-4" iyz="-1.3350503065396255E-6" izz="0.0010438168468389012"/>
+        </inertial>
+        <visual>
+            <origin rpy="3.141592653589793 2.7755575615628914E-17 -1.3877787807814457E-17" xyz="0.07495083422663912 -0.03385703496944786 0.059824881255626794"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Part_1_6">
+        <inertial>
+            <origin rpy="0.2973168944103402 -0.04429570838046979 -0.03604870478308422" xyz="-0.07739979824498402 -0.15456094889015443 0.08801283522588943"/>
+            <mass value="0.018230564161461273"/>
+            <inertia ixx="5.208410756315261E-6" ixy="-4.2398317337648713E-10" ixz="2.2385095294789756E-9" iyy="9.95025512505355E-6" iyz="-4.2022089153689035E-8" izz="8.28375054165331E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="2.220446049250313E-16 -2.7755575615629E-16 1.5707963267948912" xyz="-0.07618178510772056 -0.17016512753015442 0.08825346502214665"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_7.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.5707963267948968 1.5707963267948966 0.0" xyz="-0.07710678510772047 -0.15016512753015446 0.08800346502214668"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_6.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.611764705882353 0.611764705882353 0.611764705882353 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Part_1_3">
+        <inertial>
+            <origin rpy="-2.844275759179454 0.0442957083804698 -1.5400545984200504" xyz="-0.029126163074374184 -0.07717375336253354 0.0904189174908247"/>
+            <mass value="0.02067193585046784"/>
+            <inertia ixx="2.9375997572303526E-6" ixy="1.0" ixz="1.0" iyy="1.583999636315764E-5" iyz="1.5035987309264036E-8" izz="1.6506716416713372E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="6.938893903907228E-18 -0.0 0.0" xyz="-0.05160346502214669 -0.0771067851077205 0.10416512753015444"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="6.938893903907228E-18 -0.0 0.0" xyz="-0.029126163074374184 -0.0771067851077205 0.08116512753015448"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="3.141592653589793 -0.0 3.141592653589793" xyz="-0.006526163074374175 -0.07710678510772048 0.10416512753015444"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_5.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="bodyAssembly_1__Part_1_5">
+        <inertial>
+            <origin rpy="0.0 -0.0 0.0" xyz="0.06093237761995625 0.21092170843523267 -0.29121855341974506"/>
+            <mass value="0.6905911276758767"/>
+            <inertia ixx="0.003531682144537188" ixy="2.1275142426849796E-5" ixz="-5.9149120762144275E-5" iyy="0.003390222875397111" iyz="1.2610602354506609E-4" izz="0.004759291130126272"/>
+        </inertial>
+        <visual>
+            <origin rpy="2.7156468994744962 -1.4255827853164351 1.6349779651516658" xyz="0.06784458427800111 0.26173253234141836 -0.2987318103936719"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_9.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.7156468994744944 -1.4255827853164358 1.634977965151666" xyz="0.0579791004855284 0.17726166804149135 -0.2864334225267241"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.7156468994744993 -1.425582785316436 1.6349779651516614" xyz="0.07693412721267107 0.22683791555684468 -0.29298556024672595"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_6.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.7156468994744936 -1.4255827853164358 1.6349779651516685" xyz="0.007951349141101405 0.2545333963860842 -0.24815331549892608"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.715646899474497 -1.4255827853164358 1.634977965151668" xyz="0.09609209075583225 0.27677539636495085 -0.3005991504579143"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Composite_part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.23137254901960785 0.23137254901960785 0.23137254901960785 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-1.7031931585020135 -0.05982468551974241 -0.35779684310301263" xyz="-0.013798223013985117 0.20409745312987027 -0.291030391058805"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__myPy_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.34509803921568627 0.34509803921568627 0.34509803921568627 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.7156468994745 -1.4255827853164356 1.6349779651516683" xyz="0.13604566387535366 0.20664025999340868 -0.23996222160157796"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_4.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.715646899474506 1.4255827853164358 -1.5066146884381264" xyz="0.0755032601334838 0.22259597937574083 -0.2954118161724061"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_7.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.663939773362938 -1.4218647413633252 1.6872490515471974" xyz="0.04658417164096498 0.1482581063111208 -0.2811268379304672"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_10.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.7156468994744944 1.4255827853164358 -1.5066146884381255" xyz="0.008870162933896836 0.2402372230292375 -0.34611134328922666"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.631978511779687 0.21091886830959927 -1.915768856467954" xyz="0.06073309180912595 0.19045455206978767 -0.2565438905706907"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_13.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.63808519872426 -0.47517398091966034 -1.9594141513543102" xyz="0.06131694720183811 0.18137012389185975 -0.3187908041817541"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_14.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.7156468994744962 1.4255827853164358 -1.5066146884381248" xyz="0.13696447766814873 0.19234408663656155 -0.33792024939187837"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_5.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.7156468994744962 1.4255827853164358 -1.5066146884381257" xyz="0.15042649184091897 0.19398506767792184 -0.28796547490681845"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Composite_part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.8980392156862745 0.8980392156862745 0.8980392156862745 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.71564689947449 -1.4255827853164367 1.6349779651516603" xyz="0.07545685539647273 0.22331800833315724 -0.29046444103148317"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_8.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.663939773362955 1.4218647413633254 -1.4543436020425944" xyz="0.04442323969302428 0.13843649654477724 -0.2797008317411265"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_12.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="1.0 1.0 1.0 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="2.6640536266687334 -1.4218735824767113 1.6871339238737764" xyz="0.07758619834213992 0.2272098794138741 -0.2924124946854637"/>
+            <geometry>
+                <mesh filename="meshes/bodyAssembly_1__Part_1_11.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Composite_part_1_1">
+        <inertial>
+            <origin rpy="-1.4014066754371712 -1.2082449608017456 -3.048391492596382" xyz="-5.551115123125783E-17 -0.016999999999999932 -0.02650000000000003"/>
+            <mass value="0.0171670294792114"/>
+            <inertia ixx="6.44420964908871E-6" ixy="1.0" ixz="1.0" iyy="6.4442096490887096E-6" iyz="1.0" izz="9.382418566263971E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="1.5707963267948966 -1.5707963267948966 0.0" xyz="-5.551115123125783E-17 0.020000000000000073 -8.673617379884035E-18"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Composite_part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.6470588235294118 0.6470588235294118 0.6470588235294118 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Part_1_3">
+        <inertial>
+            <origin rpy="0.30011311469360297 0.08215675154349769 1.596372318900595" xyz="-0.19944197423160076 -0.1434417455947225 0.04086648771465551"/>
+            <mass value="0.02067193585046784"/>
+            <inertia ixx="2.9375997572303526E-6" ixy="1.0" ixz="1.0" iyy="1.583999636315764E-5" iyz="1.5035987309264036E-8" izz="1.6506716416713372E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="0.0 -0.0 -3.469446951953614E-18" xyz="-0.22191927617937324 -0.14337477733990947 0.05461269775398525"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="3.141592653589793 -0.0 3.141592653589793" xyz="-0.17684197423160075 -0.14337477733990947 0.05461269775398522"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_5.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="0.0 -0.0 -3.469446951953614E-18" xyz="-0.19944197423160076 -0.14337477733990947 0.03161269775398523"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Composite_part_1_3">
+        <inertial>
+            <origin rpy="0.3001131146936029 0.08215675154349499 -3.1160166614841285" xyz="-0.14931785792344532 0.11881016074922741 -0.20475999736504835"/>
+            <mass value="0.11594942474483423"/>
+            <inertia ixx="7.140627836546527E-5" ixy="1.6747142545063475E-6" ixz="-1.5776983380631762E-6" iyy="3.0680475987448035E-5" iyz="6.443908860269209E-6" izz="7.190206744040874E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="-1.5707963267949097 -1.5707963267948966 0.0" xyz="-0.15428590402735662 0.13548518137207505 -0.20345653715959872"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_8.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-1.5707963267948966 -1.5707963267948966 0.0" xyz="-0.14337477733990944 0.10061269775398521 -0.20631927617937323"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Composite_part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7647058823529411 0.7647058823529411 0.7647058823529411 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="HeadNeckAssembly_1__Part_1_2">
+        <inertial>
+            <origin rpy="-2.9966739245355467 -0.009281080644400391 0.12502027902300192" xyz="0.008612143957673929 0.03931646204068012 -0.048450834226639095"/>
+            <mass value="0.06486985951764727"/>
+            <inertia ixx="1.7650225450609867E-5" ixy="1.1883554632997526E-7" ixz="-1.748466142365113E-8" iyy="1.9975234977721435E-5" iyz="1.3764933079022334E-7" izz="3.560621381637972E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="1.5707963267948968 1.5707963267948966 0.0" xyz="0.008612143957673901 0.0798248812556267 -0.07495083422663909"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.611764705882353 0.611764705882353 0.611764705882353 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.5707963267948968 1.5707963267948963 0.0" xyz="0.008612143957673901 0.03782488125562666 -0.04845083422663904"/>
+            <geometry>
+                <mesh filename="meshes/HeadNeckAssembly_1__Part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Composite_part_1_2">
+        <inertial>
+            <origin rpy="1.8847517825696416 -0.35908770214618335 -1.6181119733989193" xyz="-0.03410181867356615 -0.07710678551396806 0.08567116816417389"/>
+            <mass value="0.025500824590556415"/>
+            <inertia ixx="1.1204706316036467E-5" ixy="-9.682988863561158E-13" ixz="-1.3934364447201988E-6" iyy="1.5114810167339543E-5" iyz="6.698267973349529E-13" izz="7.641938448092734E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="-1.0408340855860843E-17 -0.0 0.0" xyz="-0.05160346502214669 -0.07710678510772051 0.10416512753015447"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="1.0408340855860843E-17 -0.0 3.141592653589793" xyz="-0.03110346502214667 -0.07710678510772052 0.07341512753015442"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Composite_part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.23137254901960785 0.23137254901960785 0.23137254901960785 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Part_1_4">
+        <inertial>
+            <origin rpy="-2.8414795388961904 -0.08215675154349786 -1.5963723189005665" xyz="-0.19931927617937323 -0.14344245450875365 0.08724310356707474"/>
+            <mass value="0.020455398639671444"/>
+            <inertia ixx="2.915086716720565E-6" ixy="1.0" ixz="1.0" iyy="1.5873003355695037E-5" iyz="1.1856597788008021E-8" izz="1.6583316052442535E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="2.7755575615628914E-17 5.551115123125784E-17 -6.93889390390723E-18" xyz="-0.1993192761793732 -0.14337477733990944 0.07811269775398522"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_4.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="R_leg_Assembly_1__Composite_part_1_2">
+        <inertial>
+            <origin rpy="1.8398254725303544 -0.3609056043522829 1.6586243971283858" xyz="-0.20441762983079267 -0.14337477774615698 0.03611873838800472"/>
+            <mass value="0.025500824590556415"/>
+            <inertia ixx="1.1204706316036467E-5" ixy="-9.682988863561158E-13" ixz="-1.3934364447201988E-6" iyy="1.5114810167339543E-5" iyz="6.698267973349529E-13" izz="7.641938448092734E-6"/>
+        </inertial>
+        <visual>
+            <origin rpy="2.0816681711721682E-17 -0.0 2.7755575615628914E-17" xyz="-0.22191927617937326 -0.14337477733990944 0.05461269775398525"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Part_1_1.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7490196078431373 0.7490196078431373 0.7490196078431373 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-2.0816681711721682E-17 -0.0 -3.141592653589793" xyz="-0.20141927617937325 -0.14337477733990947 0.02386269775398525"/>
+            <geometry>
+                <mesh filename="meshes/R_leg_Assembly_1__Composite_part_1_2.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.23137254901960785 0.23137254901960785 0.23137254901960785 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <link name="L_leg_Assembly_Copy_1_1__Composite_part_1_3">
+        <inertial>
+            <origin rpy="-2.8442757591794536 0.04429570838046984 0.03653642748512791" xyz="-0.07106556118551434 0.16881798233078182 -0.08644071825396288"/>
+            <mass value="0.11842810572793049"/>
+            <inertia ixx="7.447384358371696E-5" ixy="1.5406792615511347E-6" ixz="-1.521723952400463E-6" iyy="3.129918776205951E-5" iyz="-2.5896214718515512E-6" izz="7.498889925543252E-5"/>
+        </inertial>
+        <visual>
+            <origin rpy="-1.5707963267948966 -1.5707963267948966 0.0" xyz="-0.06619581239422044 0.1860376111482446 -0.08518100924740074"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Part_1_8.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.615686274509804 0.615686274509804 0.615686274509804 1.0"/>
+            </material>
+        </visual>
+        <visual>
+            <origin rpy="-1.5707963267948966 -1.5707963267948966 0.0" xyz="-0.07710678510772047 0.15016512753015443 -0.08800346502214668"/>
+            <geometry>
+                <mesh filename="meshes/L_leg_Assembly_Copy_1_1__Composite_part_1_3.stl"/>
+            </geometry>
+            <material name="material">
+                <color rgba="0.7647058823529411 0.7647058823529411 0.7647058823529411 1.0"/>
+            </material>
+        </visual>
+        <collision name="collision">
+            <origin rpy="0.0 -0.0 0.0" xyz="0 0 0"/>
+        </collision>
+    </link>
+    <joint name="dof_Revolute 1" type="revolute">
+        <origin rpy="0.04477676154052202 0.13818391241872524 1.9494706971575104" xyz="0.14416777675292683 0.2826771706802902 -0.27426863321938755"/>
+        <parent link="bodyAssembly_1__Part_1_5"/>
+        <child link="HeadNeckAssembly_1__Part_1_7"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="dof_Revolute 2" type="revolute">
+        <origin rpy="1.5082991992616204 0.29331344448293073 1.19490836685214" xyz="0.04051116437064366 0.1990175731038774 -0.32510324721836314"/>
+        <parent link="bodyAssembly_1__Part_1_5"/>
+        <child link="L_leg_Assembly_Copy_1_1__Composite_part_1_1"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="dof_Revolute 3" type="revolute">
+        <origin rpy="-1.5090290297589914 -0.2513093471176591 -1.9439713423259006" xyz="0.08899006934061933 0.19087384651823278 -0.2527564656871386"/>
+        <parent link="bodyAssembly_1__Part_1_5"/>
+        <child link="R_leg_Assembly_1__Composite_part_1_1"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="HeadNeckAssembly &lt;1&gt;, dof_Revolute 1" type="revolute">
+        <origin rpy="-1.5707963267948994 1.492030203827812 3.1746981550053797E-15" xyz="-0.005870782608326297 -0.027000000000000024 0.025589974878209854"/>
+        <parent link="HeadNeckAssembly_1__Part_1_2"/>
+        <child link="HeadNeckAssembly_1__Part_1_1"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="HeadNeckAssembly &lt;1&gt;, Revolute 2" type="revolute">
+        <origin rpy="3.1415926535897922 -1.4311468676808726E-15 -1.8206775710540566" xyz="0.12609651541132252 -0.006449362465708042 -0.07495083422663862"/>
+        <parent link="HeadNeckAssembly_1__Part_1_7"/>
+        <child link="HeadNeckAssembly_1__Part_1_2"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="L_leg_Assembly Copy 1 &lt;1&gt;, dof_LlegRevolute 1" type="revolute">
+        <origin rpy="-1.5707963267948968 -0.0038000438576027543 -1.570796326794895" xyz="-0.10366512753015422 -0.09629602580727092 -0.0503706130652048"/>
+        <parent link="L_leg_Assembly_Copy_1_1__Composite_part_1_1"/>
+        <child link="L_leg_Assembly_Copy_1_1__Composite_part_1_2"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="L_leg_Assembly Copy 1 &lt;1&gt;, dof_LlegRevolute 2" type="revolute">
+        <origin rpy="-1.5707963267948961 1.1805983190775118 -1.5707963267948946" xyz="-0.139917752117869 -0.029380180897924005 -0.03325699737169718"/>
+        <parent link="L_leg_Assembly_Copy_1_1__Composite_part_1_2"/>
+        <child link="L_leg_Assembly_Copy_1_1__Part_1_3"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="L_leg_Assembly Copy 1 &lt;1&gt;, dof_LlegRevolute 3" type="revolute">
+        <origin rpy="-3.1415926535897927 7.771561172376105E-16 -0.005794699110282405" xyz="-4.478491084569103E-4 -0.15457156506536987 0.25483025506030876"/>
+        <parent link="L_leg_Assembly_Copy_1_1__Part_1_3"/>
+        <child link="L_leg_Assembly_Copy_1_1__Part_1_4"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="L_leg_Assembly Copy 1 &lt;1&gt;, dof_LlegRevolute 4" type="revolute">
+        <origin rpy="3.1415926535897922 -1.3877787807814454E-17 -1.5761033032031349" xyz="-0.12657596154005013 -0.15352170438184962 0.1926685925523013"/>
+        <parent link="L_leg_Assembly_Copy_1_1__Part_1_3"/>
+        <child link="L_leg_Assembly_Copy_1_1__Part_1_6"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="L_leg_Assembly Copy 1 &lt;1&gt;, dof_LlegRevolute 5" type="revolute">
+        <origin rpy="-3.1415926535897927 9.020562075079406E-17 4.877227020436267E-4" xyz="8.615063439781079E-4 -0.05048510680555274 -2.50000000000028E-4"/>
+        <parent link="L_leg_Assembly_Copy_1_1__Part_1_6"/>
+        <child link="L_leg_Assembly_Copy_1_1__Composite_part_1_3"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="R_leg_Assembly &lt;1&gt;, dof_rlegRevolute 1" type="revolute">
+        <origin rpy="1.570796326794897 0.1231151815640604 -1.5707963267948972" xyz="0.05411269775398528 -0.2821678805221911 0.0872597289856998"/>
+        <parent link="R_leg_Assembly_1__Composite_part_1_1"/>
+        <child link="R_leg_Assembly_1__Composite_part_1_2"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="R_leg_Assembly &lt;1&gt;, dof_rLegRevolute 2" type="revolute">
+        <origin rpy="1.5707963267948966 1.2341890141845657 1.5707963267948937" xyz="-0.26068113349892624 0.06868587015611877 -0.16806418974573584"/>
+        <parent link="R_leg_Assembly_1__Composite_part_1_2"/>
+        <child link="R_leg_Assembly_1__Part_1_3"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="R_leg_Assembly &lt;1&gt;, dof_rlegRevolute 3" type="revolute">
+        <origin rpy="-3.141592653589793 1.110223024625157E-16 2.8400892748692298E-14" xyz="3.9621084191310274E-15 -0.28674955467981234 0.15572539550797046"/>
+        <parent link="R_leg_Assembly_1__Part_1_3"/>
+        <child link="R_leg_Assembly_1__Part_1_4"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="R_leg_Assembly &lt;1&gt;, dof_RlegRevolute 4" type="revolute">
+        <origin rpy="3.1415926535897927 2.775557561562901E-17 -1.5778518323373134" xyz="-0.24794154062865165 -0.28617722746810564 0.31343197393335864"/>
+        <parent link="R_leg_Assembly_1__Part_1_3"/>
+        <child link="R_leg_Assembly_1__Part_1_6"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+    <joint name="R_leg_Assembly &lt;1&gt;, dof_rlegRevolute 5" type="revolute">
+        <origin rpy="-3.1415926535897927 -2.6367796834848345E-16 -0.007055505542450363" xyz="0.0014901900221822584 -0.05141357959152282 0.05225000000000013"/>
+        <parent link="R_leg_Assembly_1__Part_1_6"/>
+        <child link="R_leg_Assembly_1__Composite_part_1_3"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="10.0" lower="-1.7976931348623157E308" upper="1.7976931348623157E308" velocity="1.0"/>
+    </joint>
+<mujoco><compiler balanceinertia="true" discardvisual="false" meshdir="/tmp/translation8189404578888080423/droid/meshes"/></mujoco></robot>
